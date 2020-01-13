@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <meta name="description" content="Welcome to the Super Admin Panel of WaterMango" />
+    <meta name="author" content="Lyoid Lopes" />
+    <!-- Favicon icon -->
+    <link href="~/favicon.ico" rel="icon" />
+    <environment include="Development">
+        <!-- Custom CSS -->
+        <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+          <link href="~/lib/tabulator/css/bootstrap/tabulator_bootstrap4.min.css" rel="stylesheet" />
+        <link href="~/lib/custom/css/admin/admin.css" rel="stylesheet" />
+
+        <!-- Font Awesome J -->
+        <link  href="~/lib/font-awesome/css/all.min.css" rel="stylesheet" />
+    </environment>
+    <environment exclude="Development">
+        <link href="~/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    </environment>
+    @RenderSection("Styles", required: false)
+    <link href="~/lib/toastr.js/toastr.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- ============================================================== -->
+    <!-- Main wrapper -->
+    <!-- ============================================================== -->
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar" class="navbar-light bg-white topbar mb-4 static-top shadow">
+            <div class="sidebar-header bg-white ">
+                <h3 class="brand">Watermango<sup>.com</sup></h3>
+                <strong class="brand">WM</strong>
+            </div>
+
+
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="/admin">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                </li>
+                <hr class="sidebar-divider">
+            </ul>
+
+
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+            <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                <!-- Sidebar Toggle (Topbar) -->
+                <button type="button" id="sidebarCollapse" class="btn btn-link rounded-circle mr-3">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Topbar Navbar -->
+                <ul class="navbar-nav ml-auto">
+                    <div class="topbar-divider d-none d-sm-block"></div>
+
+                    <!-- Nav Item - User Information -->
+                    <li class="nav-item dropdown no-arrow">
+                        <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin</span>
+                        </a>
+                        <!-- Dropdown - User Information -->
+                        <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                            <form asp-area="Admin" asp-controller="Account" asp-action="Logout" method="post" id="logoutForm">
+                                <button class="dropdown-item" href="#" data-toggle="modal" type="submit">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Logout
+
+                                </button>
+                            </form>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </nav>
+            <div class="container-fluid bg-white shadow h-auto">
+
+                @RenderBody()
+
+            </div>
+            <footer class="container-fluid fixed-bottom">
+                <div class="copyright text-center my-auto">
+                    <span> Admin Panel Created By <a href="https://watermango.com">Lyoid Lopes<sup>&copy;</sup>2019</a></span>
+                </div>
+            </footer>
+
+        </div>
+
+
+    </div>
+
+
+    <environment include="Development">
+        <script src="~/lib/jquery/jquery.min.js"></script>
+        <!-- Bootstrap tether Core JavaScript -->
+        <script src="~/lib/popper.js/umd/popper.min.js"></script>
+        <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="~/lib/tabulator/js/tabulator.min.js" type="text/javascript"></script>
+        <script src="~/lib/signalr/signalr.min.js"></script>
+        <script src="~/lib/custom/js/quartzhub.js"></script>
+        <!-- Custom JS -->
+        <script src="~/lib/custom/js/admin/admin.js"></script>
+
+
+    </environment>
+    <environment exclude="Development">
+        <script src="~/lib/jquery/jquery.js"></script>
+        <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+    </environment>
+ <script src="~/lib/toastr.js/toastr.min.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+
+</html>

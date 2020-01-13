@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databases>
+    <DEV-LOCAL>
+        <server>localhost,1433</server>
+        <database>WaterMango</database>
+        <username>sa</username>
+        <password>Dockersql123</password>
+    </DEV-LOCAL>
+    <DEV-QUARTZ>
+        <server>localhost,1433</server>
+        <database>QuartzWaterMangoDB</database>
+        <username>sa</username>
+        <password>Dockersql123</password>
+    </DEV-QUARTZ>
+</databases>

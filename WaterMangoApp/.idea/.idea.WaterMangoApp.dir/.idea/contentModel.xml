@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p=".gitignore" t="Include" />
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="Areas" t="Include">
+        <e p="Admin" t="Include">
+          <e p="Controllers" t="Include">
+            <e p="AccountController.cs" t="Include" />
+            <e p="HomeController.cs" t="Include" />
+          </e>
+          <e p="Views" t="Include">
+            <e p="_ViewImports.cshtml" t="Include" />
+            <e p="_ViewStart.cshtml" t="Include" />
+            <e p="Account" t="Include">
+              <e p="_ViewStart.cshtml" t="Include" />
+              <e p="AccessDenied.cshtml" t="Include" />
+              <e p="Login.cshtml" t="Include" />
+            </e>
+            <e p="Home" t="Include">
+              <e p="Index.cshtml" t="Include" />
+            </e>
+            <e p="Shared" t="Include">
+              <e p="_AdminBlankLayout.cshtml" t="Include" />
+              <e p="_AdminLayout.cshtml" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="ClientApp" t="Include">
+        <e p=".editorconfig" t="Include" />
+        <e p=".gitignore" t="Include" />
+        <e p="angular.json" t="Include" />
+        <e p="browserslist" t="Include" />
+        <e p="e2e" t="Include">
+          <e p="protractor.conf.js" t="Include" />
+          <e p="src" t="Include">
+            <e p="app.e2e-spec.ts" t="Include" />
+            <e p="app.po.ts" t="Include" />
+          </e>
+          <e p="tsconfig.e2e.json" t="Include" />
+        </e>
+        <e p="node_modules/@angular/animations" t="IncludeRecursive" />
+        <e p="node_modules/@angular/cli" t="IncludeRecursive" />
+        <e p="node_modules/@angular/common" t="IncludeRecursive" />
+        <e p="node_modules/@angular/compiler" t="IncludeRecursive" />
+        <e p="node_modules/@angular/compiler-cli" t="IncludeRecursive" />
+        <e p="node_modules/@angular/core" t="IncludeRecursive" />
+        <e p="node_modules/@angular/forms" t="IncludeRecursive" />
+        <e p="node_modules/@angular/platform-browser" t="IncludeRecursive" />
+        <e p="node_modules/@angular/platform-browser-dynamic" t="IncludeRecursive" />
+        <e p="node_modules/@angular/platform-server" t="IncludeRecursive" />
+        <e p="node_modules/@angular/router" t="IncludeRecursive" />
+        <e p="node_modules/@angular-devkit/architect" t="IncludeRecursive" />
+        <e p="node_modules/@angular-devkit/build-angular" t="IncludeRecursive" />
+        <e p="node_modules/@angular-devkit/build-optimizer" t="IncludeRecursive" />
+        <e p="node_modules/@angular-devkit/build-webpack" t="IncludeRecursive" />
+        <e p="node_modules/@angular-devkit/core" t="IncludeRecursive" />
+        <e p="node_modules/@angular-devkit/schematics" t="IncludeRecursive" />
+        <e p="node_modules/@ngtools/webpack" t="IncludeRecursive" />
+        <e p="node_modules/@nguniversal/module-map-ngfactory-loader" t="IncludeRecursive" />
+        <e p="node_modules/@types" t="IncludeRecursive">
+          <e p="events" t="IncludeRecursive" />
+          <e p="jasmine" t="IncludeRecursive" />
+          <e p="jasminewd2" t="IncludeRecursive" />
+          <e p="minimatch" t="IncludeRecursive" />
+          <e p="node" t="IncludeRecursive" />
+          <e p="source-list-map" t="IncludeRecursive" />
+        </e>
+        <e p="node_modules/ajv" t="IncludeRecursive" />
+        <e p="node_modules/aspnet-prerendering" t="IncludeRecursive" />
+        <e p="node_modules/blocking-proxy" t="IncludeRecursive" />
+        <e p="node_modules/bootstrap" t="IncludeRecursive" />
+        <e p="node_modules/canonical-path" t="IncludeRecursive" />
+        <e p="node_modules/chokidar" t="IncludeRecursive" />
+        <e p="node_modules/codelyzer" t="IncludeRecursive" />
+        <e p="node_modules/commander" t="IncludeRecursive" />
+        <e p="node_modules/core-js" t="IncludeRecursive" />
+        <e p="node_modules/dependency-graph" t="IncludeRecursive" />
+        <e p="node_modules/domino" t="IncludeRecursive" />
+        <e p="node_modules/es6-promise" t="IncludeRecursive" />
+        <e p="node_modules/fast-deep-equal" t="IncludeRecursive" />
+        <e p="node_modules/jasmine-core" t="IncludeRecursive" />
+        <e p="node_modules/jasmine-spec-reporter" t="IncludeRecursive" />
+        <e p="node_modules/jquery" t="IncludeRecursive" />
+        <e p="node_modules/karma" t="IncludeRecursive" />
+        <e p="node_modules/karma-chrome-launcher" t="IncludeRecursive" />
+        <e p="node_modules/karma-coverage-istanbul-reporter" t="IncludeRecursive" />
+        <e p="node_modules/karma-jasmine" t="IncludeRecursive" />
+        <e p="node_modules/karma-jasmine-html-reporter" t="IncludeRecursive" />
+        <e p="node_modules/license-webpack-plugin" t="IncludeRecursive" />
+        <e p="node_modules/magic-string" t="IncludeRecursive" />
+        <e p="node_modules/node-sass" t="IncludeRecursive" />
+        <e p="node_modules/oidc-client" t="IncludeRecursive" />
+        <e p="node_modules/popper.js" t="IncludeRecursive" />
+        <e p="node_modules/portfinder" t="IncludeRecursive" />
+        <e p="node_modules/postcss" t="IncludeRecursive" />
+        <e p="node_modules/protractor" t="IncludeRecursive" />
+        <e p="node_modules/reflect-metadata" t="IncludeRecursive" />
+        <e p="node_modules/rxjs" t="IncludeRecursive" />
+        <e p="node_modules/source-map" t="IncludeRecursive" />
+        <e p="node_modules/sourcemap-codec" t="IncludeRecursive" />
+        <e p="node_modules/symbol-observable" t="IncludeRecursive" />
+        <e p="node_modules/terser" t="IncludeRecursive" />
+        <e p="node_modules/tree-kill" t="IncludeRecursive" />
+        <e p="node_modules/ts-node" t="IncludeRecursive" />
+        <e p="node_modules/tslib" t="IncludeRecursive" />
+        <e p="node_modules/tslint" t="IncludeRecursive" />
+        <e p="node_modules/upath" t="IncludeRecursive" />
+        <e p="node_modules/uri-js" t="IncludeRecursive" />
+        <e p="node_modules/webdriver-js-extender" t="IncludeRecursive" />
+        <e p="node_modules/zone.js" t="IncludeRecursive" />
+        <e p="package-lock.json" t="Include" />
+        <e p="package.json" t="Include" />
+        <e p="README.md" t="Include" />
+        <e p="src" t="Include">
+          <e p="app" t="Include">
+            <e p="app.component.html" t="Include" />
+            <e p="app.component.ts" t="Include" />
+            <e p="app.module.ts" t="Include" />
+            <e p="app.server.module.ts" t="Include" />
+            <e p="counter" t="Include">
+              <e p="counter.component.html" t="Include" />
+              <e p="counter.component.spec.ts" t="Include" />
+              <e p="counter.component.ts" t="Include" />
+            </e>
+            <e p="fetch-data" t="Include">
+              <e p="fetch-data.component.html" t="Include" />
+              <e p="fetch-data.component.ts" t="Include" />
+            </e>
+            <e p="Home" t="Include">
+              <e p="home.component.html" t="Include" />
+              <e p="home.component.ts" t="Include" />
+            </e>
+            <e p="nav-menu" t="Include">
+              <e p="nav-menu.component.css" t="Include" />
+              <e p="nav-menu.component.html" t="Include" />
+              <e p="nav-menu.component.ts" t="Include" />
+            </e>
+          </e>
+          <e p="assets" t="Include">
+            <e p=".gitkeep" t="Include" />
+          </e>
+          <e p="environments" t="Include">
+            <e p="environment.prod.ts" t="Include" />
+            <e p="environment.ts" t="Include" />
+          </e>
+          <e p="index.html" t="Include" />
+          <e p="karma.conf.js" t="Include" />
+          <e p="main.ts" t="Include" />
+          <e p="polyfills.ts" t="Include" />
+          <e p="styles.css" t="Include" />
+          <e p="test.ts" t="Include" />
+          <e p="tsconfig.app.json" t="Include" />
+          <e p="tsconfig.server.json" t="Include" />
+          <e p="tsconfig.spec.json" t="Include" />
+          <e p="tslint.json" t="Include" />
+        </e>
+        <e p="tsconfig.json" t="Include" />
+        <e p="tslint.json" t="Include" />
+      </e>
+      <e p="Controllers" t="Include">
+        <e p="Api" t="Include">
+          <e p="v1" t="Include">
+            <e p="PlantController.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Data" t="Include">
+        <e p="ApplicationDbContext.cs" t="Include" />
+        <e p="DbContextInitializer.cs" t="Include" />
+      </e>
+      <e p="DataAccessService" t="Include">
+        <e p="bin" t="Include">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="DataAccessService.deps.json" t="Include" />
+              <e p="DataAccessService.dll" t="Include" />
+              <e p="DataAccessService.pdb" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="DBAcces.xml" t="Include" />
+        <e p="DBAccess.cs" t="Include" />
+        <e p="obj" t="Include">
+          <e p="DataAccessService.csproj.nuget.cache" t="Include" />
+          <e p="DataAccessService.csproj.nuget.dgspec.json" t="Include" />
+          <e p="DataAccessService.csproj.nuget.g.props" t="Include" />
+          <e p="DataAccessService.csproj.nuget.g.targets" t="Include" />
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="DataAccessService.AssemblyInfo.cs" t="Include" />
+              <e p="DataAccessService.AssemblyInfoInputs.cache" t="Include" />
+              <e p="DataAccessService.assets.cache" t="Include" />
+              <e p="DataAccessService.csproj.FileListAbsolute.txt" t="Include" />
+              <e p="DataAccessService.csprojAssemblyReference.cache" t="Include" />
+              <e p="DataAccessService.dll" t="Include" />
+              <e p="DataAccessService.pdb" t="Include" />
+            </e>
+          </e>
+          <e p="project.assets.json" t="Include" />
+          <e p="project.packagespec.json" t="Include" />
+        </e>
+      </e>
+      <e p="Extensions" t="Include">
+        <e p="ServiceCollectionsExtensions.cs" t="Include" />
+      </e>
+      <e p="Factory" t="Include">
+        <e p="IAuthService.cs" t="Include" />
+        <e p="IFunctionalService.cs" t="Include" />
+        <e p="IWaterPlantsService.cs" t="Include" />
+      </e>
+      <e p="Helpers" t="Include">
+        <e p="AdminUserOptions.cs" t="Include" />
+        <e p="AppSettings.cs" t="Include" />
+        <e p="AppUserOptions.cs" t="Include" />
+        <e p="IdentityDefaultOptions.cs" t="Include" />
+      </e>
+      <e p="Jobs" t="Include">
+        <e p="JobListener.cs" t="Include" />
+        <e p="SchedulerListener.cs" t="Include" />
+        <e p="TriggerListener.cs" t="Include" />
+        <e p="WaterMyPlants.cs" t="Include" />
+      </e>
+      <e p="libman.json" t="Include" />
+      <e p="Logs" t="Include">
+        <e p="error_20200110.json" t="Include" />
+        <e p="error_20200111.json" t="Include" />
+        <e p="load_error_20200109.json" t="Include" />
+        <e p="load_error_20200110.json" t="Include" />
+        <e p="load_error_20200111.json" t="Include" />
+        <e p="load_error_20200112.json" t="Include" />
+      </e>
+      <e p="Model" t="Include">
+        <e p="AccountModels" t="Include">
+          <e p="LoginViewModel.cs" t="Include" />
+        </e>
+        <e p="BusinessModels" t="Include">
+          <e p="PlantViewModel.cs" t="Include" />
+          <e p="TaskViewModel.cs" t="Include" />
+        </e>
+        <e p="HttpModels" t="Include">
+          <e p="CardInfoResponseModel.cs" t="Include" />
+          <e p="ResponseStatusInfoModel.cs" t="Include" />
+        </e>
+        <e p="IdentityModels" t="Include">
+          <e p="ApplicationUser.cs" t="Include" />
+          <e p="TokenRequestModel.cs" t="Include" />
+          <e p="TokenResponseModel.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.0" t="Include">
+            <e p="WaterMangoApp.AssemblyInfo.cs" t="Include" />
+            <e p="WaterMangoApp.RazorAssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Pages" t="Include">
+        <e p="_ViewImports.cshtml" t="Include" />
+        <e p="Error.cshtml" t="Include" />
+        <e p="Error.cshtml.cs" t="Include" />
+      </e>
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="Services" t="Include">
+        <e p="AuthService.cs" t="Include" />
+        <e p="FunctionalService.cs" t="Include" />
+        <e p="WaterPlantsService.cs" t="Include" />
+      </e>
+      <e p="Startup.cs" t="Include" />
+      <e p="WaterMangoApp.csproj" t="IncludeRecursive" />
+      <e p="WeatherForecast.cs" t="Include" />
+      <e p="wwwroot" t="Include">
+        <e p="fonts" t="Include">
+          <e p="montserrat" t="Include">
+            <e p="Montserrat-Regular.ttf" t="Include" />
+            <e p="OFL.txt" t="Include" />
+          </e>
+          <e p="Poppins" t="Include">
+            <e p="Poppins-Black.ttf" t="Include" />
+            <e p="Poppins-BlackItalic.ttf" t="Include" />
+            <e p="Poppins-Bold.ttf" t="Include" />
+            <e p="Poppins-BoldItalic.ttf" t="Include" />
+            <e p="Poppins-ExtraBold.ttf" t="Include" />
+            <e p="Poppins-ExtraBoldItalic.ttf" t="Include" />
+            <e p="Poppins-ExtraLight.ttf" t="Include" />
+            <e p="Poppins-ExtraLightItalic.ttf" t="Include" />
+            <e p="Poppins-Italic.ttf" t="Include" />
+            <e p="Poppins-Light.ttf" t="Include" />
+            <e p="Poppins-LightItalic.ttf" t="Include" />
+            <e p="Poppins-Medium.ttf" t="Include" />
+            <e p="Poppins-MediumItalic.ttf" t="Include" />
+            <e p="Poppins-Regular.ttf" t="Include" />
+            <e p="Poppins-SemiBold.ttf" t="Include" />
+            <e p="Poppins-SemiBoldItalic.ttf" t="Include" />
+            <e p="Poppins-Thin.ttf" t="Include" />
+            <e p="Poppins-ThinItalic.ttf" t="Include" />
+          </e>
+        </e>
+        <e p="images" t="Include">
+          <e p="bg.jpeg" t="Include" />
+        </e>
+        <e p="lib" t="Include">
+          <e p="bootstrap" t="Include">
+            <e p="css" t="Include">
+              <e p="bootstrap-grid.css" t="Include" />
+              <e p="bootstrap-grid.css.map" t="Include" />
+              <e p="bootstrap-grid.min.css" t="Include" />
+              <e p="bootstrap-grid.min.css.map" t="Include" />
+              <e p="bootstrap-reboot.css" t="Include" />
+              <e p="bootstrap-reboot.css.map" t="Include" />
+              <e p="bootstrap-reboot.min.css" t="Include" />
+              <e p="bootstrap-reboot.min.css.map" t="Include" />
+              <e p="bootstrap.css" t="Include" />
+              <e p="bootstrap.css.map" t="Include" />
+              <e p="bootstrap.min.css" t="Include" />
+              <e p="bootstrap.min.css.map" t="Include" />
+            </e>
+            <e p="js" t="Include">
+              <e p="bootstrap.bundle.js" t="Include" />
+              <e p="bootstrap.bundle.js.map" t="Include" />
+              <e p="bootstrap.bundle.min.js" t="Include" />
+              <e p="bootstrap.bundle.min.js.map" t="Include" />
+              <e p="bootstrap.js" t="Include" />
+              <e p="bootstrap.js.map" t="Include" />
+              <e p="bootstrap.min.js" t="Include" />
+              <e p="bootstrap.min.js.map" t="Include" />
+            </e>
+          </e>
+          <e p="custom" t="Include">
+            <e p="css" t="Include">
+              <e p="Admin" t="Include">
+                <e p="admin.css" t="Include" />
+                <e p="home.css" t="Include" />
+                <e p="login.css" t="Include" />
+              </e>
+            </e>
+            <e p="js" t="Include">
+              <e p="Admin" t="Include">
+                <e p="admin.js" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="font-awesome" t="Include">
+            <e p="css" t="Include">
+              <e p="all.css" t="Include" />
+              <e p="all.min.css" t="Include" />
+              <e p="brands.css" t="Include" />
+              <e p="brands.min.css" t="Include" />
+              <e p="fontawesome.css" t="Include" />
+              <e p="fontawesome.min.css" t="Include" />
+              <e p="regular.css" t="Include" />
+              <e p="regular.min.css" t="Include" />
+              <e p="solid.css" t="Include" />
+              <e p="solid.min.css" t="Include" />
+              <e p="svg-with-js.css" t="Include" />
+              <e p="svg-with-js.min.css" t="Include" />
+              <e p="v4-shims.css" t="Include" />
+              <e p="v4-shims.min.css" t="Include" />
+            </e>
+            <e p="js" t="Include">
+              <e p="all.js" t="Include" />
+              <e p="all.min.js" t="Include" />
+              <e p="brands.js" t="Include" />
+              <e p="brands.min.js" t="Include" />
+              <e p="conflict-detection.js" t="Include" />
+              <e p="conflict-detection.min.js" t="Include" />
+              <e p="fontawesome.js" t="Include" />
+              <e p="fontawesome.min.js" t="Include" />
+              <e p="regular.js" t="Include" />
+              <e p="regular.min.js" t="Include" />
+              <e p="solid.js" t="Include" />
+              <e p="solid.min.js" t="Include" />
+              <e p="v4-shims.js" t="Include" />
+              <e p="v4-shims.min.js" t="Include" />
+            </e>
+            <e p="sprites" t="Include">
+              <e p="brands.svg" t="Include" />
+              <e p="regular.svg" t="Include" />
+              <e p="solid.svg" t="Include" />
+            </e>
+            <e p="webfonts" t="Include">
+              <e p="fa-brands-400.eot" t="Include" />
+              <e p="fa-brands-400.svg" t="Include" />
+              <e p="fa-brands-400.ttf" t="Include" />
+              <e p="fa-brands-400.woff" t="Include" />
+              <e p="fa-brands-400.woff2" t="Include" />
+              <e p="fa-regular-400.eot" t="Include" />
+              <e p="fa-regular-400.svg" t="Include" />
+              <e p="fa-regular-400.ttf" t="Include" />
+              <e p="fa-regular-400.woff" t="Include" />
+              <e p="fa-regular-400.woff2" t="Include" />
+              <e p="fa-solid-900.eot" t="Include" />
+              <e p="fa-solid-900.svg" t="Include" />
+              <e p="fa-solid-900.ttf" t="Include" />
+              <e p="fa-solid-900.woff" t="Include" />
+              <e p="fa-solid-900.woff2" t="Include" />
+            </e>
+          </e>
+          <e p="jquery" t="Include">
+            <e p="core.js" t="Include" />
+            <e p="jquery.js" t="Include" />
+            <e p="jquery.min.js" t="Include" />
+            <e p="jquery.min.map" t="Include" />
+            <e p="jquery.slim.js" t="Include" />
+            <e p="jquery.slim.min.js" t="Include" />
+            <e p="jquery.slim.min.map" t="Include" />
+          </e>
+          <e p="popper.js" t="Include">
+            <e p="esm" t="Include">
+              <e p="popper-utils.js" t="Include" />
+              <e p="popper-utils.js.map" t="Include" />
+              <e p="popper-utils.min.js" t="Include" />
+              <e p="popper-utils.min.js.map" t="Include" />
+              <e p="popper.js" t="Include" />
+              <e p="popper.js.map" t="Include" />
+              <e p="popper.min.js" t="Include" />
+              <e p="popper.min.js.map" t="Include" />
+            </e>
+            <e p="popper-utils.js" t="Include" />
+            <e p="popper-utils.js.map" t="Include" />
+            <e p="popper-utils.min.js" t="Include" />
+            <e p="popper-utils.min.js.map" t="Include" />
+            <e p="popper.js" t="Include" />
+            <e p="popper.js.map" t="Include" />
+            <e p="popper.min.js" t="Include" />
+            <e p="popper.min.js.map" t="Include" />
+            <e p="umd" t="Include">
+              <e p="popper-utils.js" t="Include" />
+              <e p="popper-utils.js.map" t="Include" />
+              <e p="popper-utils.min.js" t="Include" />
+              <e p="popper-utils.min.js.map" t="Include" />
+              <e p="popper.js" t="Include" />
+              <e p="popper.js.map" t="Include" />
+              <e p="popper.min.js" t="Include" />
+              <e p="popper.min.js.map" t="Include" />
+            </e>
+          </e>
+          <e p="tabulator" t="Include">
+            <e p="css" t="Include">
+              <e p="bootstrap" t="Include">
+                <e p="tabulator_bootstrap.css" t="Include" />
+                <e p="tabulator_bootstrap.min.css" t="Include" />
+                <e p="tabulator_bootstrap.min.css.map" t="Include" />
+                <e p="tabulator_bootstrap4.css" t="Include" />
+                <e p="tabulator_bootstrap4.min.css" t="Include" />
+                <e p="tabulator_bootstrap4.min.css.map" t="Include" />
+              </e>
+              <e p="bulma" t="Include">
+                <e p="tabulator_bulma.css" t="Include" />
+                <e p="tabulator_bulma.min.css" t="Include" />
+                <e p="tabulator_bulma.min.css.map" t="Include" />
+              </e>
+              <e p="semantic-ui" t="Include">
+                <e p="tabulator_semantic-ui.css" t="Include" />
+                <e p="tabulator_semantic-ui.min.css" t="Include" />
+                <e p="tabulator_semantic-ui.min.css.map" t="Include" />
+              </e>
+              <e p="tabulator.css" t="Include" />
+              <e p="tabulator.min.css" t="Include" />
+              <e p="tabulator.min.css.map" t="Include" />
+              <e p="tabulator_midnight.css" t="Include" />
+              <e p="tabulator_midnight.min.css" t="Include" />
+              <e p="tabulator_midnight.min.css.map" t="Include" />
+              <e p="tabulator_modern.css" t="Include" />
+              <e p="tabulator_modern.min.css" t="Include" />
+              <e p="tabulator_modern.min.css.map" t="Include" />
+              <e p="tabulator_simple.css" t="Include" />
+              <e p="tabulator_simple.min.css" t="Include" />
+              <e p="tabulator_simple.min.css.map" t="Include" />
+              <e p="tabulator_site.css" t="Include" />
+              <e p="tabulator_site.min.css" t="Include" />
+              <e p="tabulator_site.min.css.map" t="Include" />
+            </e>
+            <e p="js" t="Include">
+              <e p="jquery_wrapper.js" t="Include" />
+              <e p="jquery_wrapper.min.js" t="Include" />
+              <e p="modules" t="Include">
+                <e p="accessor.js" t="Include" />
+                <e p="accessor.min.js" t="Include" />
+                <e p="ajax.js" t="Include" />
+                <e p="ajax.min.js" t="Include" />
+                <e p="calculation_colums.js" t="Include" />
+                <e p="calculation_colums.min.js" t="Include" />
+                <e p="clipboard.js" t="Include" />
+                <e p="clipboard.min.js" t="Include" />
+                <e p="data_tree.js" t="Include" />
+                <e p="data_tree.min.js" t="Include" />
+                <e p="download.js" t="Include" />
+                <e p="download.min.js" t="Include" />
+                <e p="edit.js" t="Include" />
+                <e p="edit.min.js" t="Include" />
+                <e p="filter.js" t="Include" />
+                <e p="filter.min.js" t="Include" />
+                <e p="format.js" t="Include" />
+                <e p="format.min.js" t="Include" />
+                <e p="frozen_columns.js" t="Include" />
+                <e p="frozen_columns.min.js" t="Include" />
+                <e p="frozen_rows.js" t="Include" />
+                <e p="frozen_rows.min.js" t="Include" />
+                <e p="group_rows.js" t="Include" />
+                <e p="group_rows.min.js" t="Include" />
+                <e p="history.js" t="Include" />
+                <e p="history.min.js" t="Include" />
+                <e p="html_table_export.js" t="Include" />
+                <e p="html_table_export.min.js" t="Include" />
+                <e p="html_table_import.js" t="Include" />
+                <e p="html_table_import.min.js" t="Include" />
+                <e p="keybindings.js" t="Include" />
+                <e p="keybindings.min.js" t="Include" />
+                <e p="moveable_columns.js" t="Include" />
+                <e p="moveable_columns.min.js" t="Include" />
+                <e p="moveable_rows.js" t="Include" />
+                <e p="moveable_rows.min.js" t="Include" />
+                <e p="mutator.js" t="Include" />
+                <e p="mutator.min.js" t="Include" />
+                <e p="page.js" t="Include" />
+                <e p="page.min.js" t="Include" />
+                <e p="persistence.js" t="Include" />
+                <e p="persistence.min.js" t="Include" />
+                <e p="print.js" t="Include" />
+                <e p="print.min.js" t="Include" />
+                <e p="reactive_data.js" t="Include" />
+                <e p="reactive_data.min.js" t="Include" />
+                <e p="resize_columns.js" t="Include" />
+                <e p="resize_columns.min.js" t="Include" />
+                <e p="resize_rows.js" t="Include" />
+                <e p="resize_rows.min.js" t="Include" />
+                <e p="resize_table.js" t="Include" />
+                <e p="resize_table.min.js" t="Include" />
+                <e p="responsive_layout.js" t="Include" />
+                <e p="responsive_layout.min.js" t="Include" />
+                <e p="select_row.js" t="Include" />
+                <e p="select_row.min.js" t="Include" />
+                <e p="sort.js" t="Include" />
+                <e p="sort.min.js" t="Include" />
+                <e p="validate.js" t="Include" />
+                <e p="validate.min.js" t="Include" />
+              </e>
+              <e p="tabulator.js" t="Include" />
+              <e p="tabulator.min.js" t="Include" />
+              <e p="tabulator_core.js" t="Include" />
+              <e p="tabulator_core.min.js" t="Include" />
+            </e>
+          </e>
+          <e p="toastr.js" t="Include">
+            <e p="toastr.css" t="Include" />
+            <e p="toastr.js.map" t="Include" />
+            <e p="toastr.min.css" t="Include" />
+            <e p="toastr.min.js" t="Include" />
+          </e>
+        </e>
+        <e p="uploads" t="Include">
+          <e p="images" t="Include">
+            <e p="plants" t="Include">
+              <e p="img-1.jpg" t="Include" />
+              <e p="img-2.jpg" t="Include" />
+              <e p="img-3.jpg" t="Include" />
+              <e p="img-4.jpg" t="Include" />
+              <e p="img-5.jpg" t="Include" />
+            </e>
+            <e p="profile.jpeg" t="Include" />
+          </e>
+        </e>
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_.19.00" t="ExcludeRecursive" />
+  </component>
+</project>
