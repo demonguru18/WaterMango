@@ -1,0 +1,41 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row mb-3 text-center">
+        <div class="col-md-12">
+          <div class="card shadow">
+            <div class="card-body">
+              <div class="row">
+                <table class="table table-bordered table-responsive">
+                  <thead class="bg-success">
+                  <tr>
+                    <th>PlantId</th>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Last Watered</th>
+                    <th>Next Watered</th>
+                    <th>JobId</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr *ngFor="let p of plants">
+                    <td scope="row">{{p.id}}</td>
+                    <td><img class="img-thumbnail" src="{{p.imageUrl}}" /></td>
+                    <td>{{p.name}}</td>
+                    <td><kbd class="text-white mb-4" >Next Watered AT : {{p.lastWateredAt | date:'H:mm:ss': 'UTC'}}</kbd></td>
+                    <td><kbd class="text-white mb-4" >Next Watered AT : {{p.nextWateredAt | date:'H:mm:ss': 'UTC'}}</kbd></td>
+                    <td>{{p.jobId}}</td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
